@@ -8,6 +8,9 @@ Description: Implementation and testing the BusStop class while relying on user 
  */
 
 
+using System.Diagnostics;
+using System.Diagnostics.Metrics;
+
 namespace CW1
 {
     /// <summary>
@@ -90,3 +93,49 @@ namespace CW1
         } // Main method
     } // MainClass
 } // CW1
+
+//Welcome to the BusStop class test!
+//Enter the details as shown below (enter "quit" in the ID field to exit this program.)
+//ID: on
+//Error: The input string 'on' was not in a correct format.
+//ID: 0
+//Error: Id is out of range
+//ID: -23
+//Error: Id is out of range
+//ID: 21
+//21 - Valid ID
+//Name:
+//Error: Name cannot be empty.
+//Name: Princes Street
+//Princes Street - Valid Bus stop name
+//Latitude: we
+//Error: The input string 'we' was not in a correct format.
+//Latitude: 123
+//Error: Latitude is out of range! (Must be within 55.8 and 55.9).
+//Latitude: 55.87654
+//55.87654 - Valid latitude
+//Longitude: ten
+//Error: The input string 'ten' was not in a correct format.
+//Longitude: 10
+//Error: Longitude is out of range! (Must be within -3.0 and -3.4).
+//Longitude: -3.393458
+//- 3.393458 - Valid longitude
+//A passenger has boarded the bus
+//--------------------Next--------------------
+//ID: 219
+//219 - Valid ID
+//Name: XC Lothian
+//XC Lothian  - Valid Bus stop name
+//Latitude: 55.89
+//55.89 - Valid latitude
+//Longitude: -3.2958
+//- 3.2958 - Valid longitude
+//A passenger has boarded the bus
+//--------------------Next--------------------
+//ID: quit
+//Thank you for using this program.
+//2 passenger(s) boarded this bus.
+
+//C:\Users\PC\Desktop\OOSDCW1\bin\Debug\net8.0\CW1.exe (process 3184) exited with code 0 (0x0).
+//To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+//Press any key to close this window . . .
