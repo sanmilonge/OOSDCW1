@@ -4,7 +4,7 @@
 //File: Main.cs 
 //Author: Oluwasanmi Longe  
 //Matriculation number: 40798397 
-//Description: Implementation and testing the BusStop class
+//Description: Implementation and testing the BusStop class while relying on user input
 // */
 
 

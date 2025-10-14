@@ -1,4 +1,14 @@
-﻿namespace CW1
+﻿/*
+Module: Object Oriented Software Development 
+Coursework: Coursework 1 
+File: test.cs 
+Author: Oluwasanmi Longe  
+Matriculation number: 40798397 
+Description: Implementation and testing the BusStop class without relying on user input
+ */
+
+
+namespace CW1
 {
     /// <summary>
     /// This class tests the BusStop class and catches errors it throws without using user input

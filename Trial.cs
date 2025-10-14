@@ -1,4 +1,14 @@
-﻿///<summary>
+﻿/*
+Module: Object Oriented Software Development 
+Coursework: Coursework 1 
+File: Trial.cs
+Author: Oluwasanmi Longe  
+Matriculation number: 40798397
+Description: Implementation and testing the BusStop class
+ */
+
+
+///<summary>
 ///Initial implementation of BusStop class including validation and user input
 /// </summary>
 
